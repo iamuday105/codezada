@@ -1,6 +1,13 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Mono:wght@100..700&family=Edu+SA+Beginner:wght@400..700&display=swap');
+
 
 @import "tailwindcss";
+
+
+html,body{
+  overflow-x: hidden;
+}
+
 
 @theme {
   /* Fonts (if you want to keep them) */

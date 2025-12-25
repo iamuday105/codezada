@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div>
       {/*Section1  */}
-      <div className='relative mx-auto flex flex-col w-11/12 max-w-maxContent items-center 
+      <div className='relative mx-auto flex flex-col w-10/12 max-w-maxContent items-center 
       text-white justify-between'>
 
         <Link to={"/signup"}>
@@ -89,7 +89,7 @@ const Home = () => {
                     }
                 }
 
-                codeblock={`<<!DOCTYPE html>\n<html>\nhead><title>Example</title><linkrel="stylesheet"href="styles.css">\n/head>\n`}
+                codeblock={`<<!DOCTYPE html>\n<html>\nhead><title>Example</title><linkrel="stylesheet"href="styles.css">\n/head>\nbody>\nh1><ahref="/">Header</a>\n/h1>\nnav><ahref="one/">One</a><ahref="two/>Two</\na><ahref="three/">Three</a>\n/nav>`}
                 codeColor={"text-yellow-25"}
             />
         </div>
@@ -123,7 +123,7 @@ const Home = () => {
                     }
                 }
 
-                codeblock={`<<!DOCTYPE html>\n<html>\nhead><title>Example</title><linkrel="stylesheet"href="styles.css">\n/head>\n`}
+                codeblock={`<<!DOCTYPE html>\n<html>\nhead><title>Example</title><linkrel="stylesheet"href="styles.css">\n/head>\nbody>\nh1><ahref="/">Header</a>\n/h1>\nnav><ahref="one/">One</a><ahref="two/>Two</\na><ahref="three/">Three</a>\n/nav>`}
                 codeColor={"text-yellow-25"}
             />
         </div>
@@ -135,7 +135,7 @@ const Home = () => {
       <div className='bg-pure-greys-5 text-richblack-700'>
             <div className='homepage_bg h-[310px]'>
 
-                <div className='w-11/12 max-w-maxContent flex flex-col items-center justify-between gap-5 mx-auto'>
+                <div className='w-10/12 max-w-maxContent flex flex-col items-center justify-between gap-5 mx-auto'>
                     <div className='h-[150px]'></div>
                     <div className='flex flex-row gap-7 text-white '>
                         <CTAButton active={true} linkto={"/signup"}>
@@ -157,7 +157,7 @@ const Home = () => {
 
             </div>
 
-            <div className='mx-auto w-11/12 max-w-maxContent flex flex-col items-center justify-between gap-7'>
+            <div className='mx-auto w-10/12 max-w-maxContent flex flex-col items-center justify-between gap-7'>
 
                 <div className='flex flex-row gap-5 mb-10 mt-[95px]'>
                     <div className='text-4xl font-semibold w-[45%]'>
@@ -192,7 +192,7 @@ const Home = () => {
 
 
       {/*Section 3 */}
-      <div className='w-11/12 mx-auto max-w-maxContent flex-col items-center justify-between gap-8 first-letter bg-richblack-900 text-white'>
+      <div className='w-10/12 mx-auto max-w-maxContent flex-col items-center justify-between gap-8 first-letter bg-richblack-900 text-white'>
 
             <InstructorSection />
 
